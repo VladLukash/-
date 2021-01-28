@@ -1,0 +1,120 @@
+.volsu-login-logo {
+    background: url(images/logo.jpg) 15px center no-repeat;
+    background-size: contain;
+    height: 68px;
+    
+
+}
+
+h1 {
+    font-size: 41px;
+    font-family: "Philosopher";
+    font-weight: 500;
+    line-height: 1.1;
+    color: #01426A;
+}
+h2 {
+	font-size: 26px;
+    font-family: "Philosopher";
+    font-weight: 500;
+    line-height: 1.1;
+    color: #01426A;
+}
+
+
+.volsu-body-content {
+    margin-top: 10px;
+    background-color: white;
+    padding: 30px;
+}
+
+.volsu-rounded {
+    border-radius: 4px;
+}
+body{
+	background-color: white;
+	color:#01426A;
+}
+
+a {
+	color: #01426A;
+	font-family: "Trebuchet";
+}
+
+}
+label{
+	color:#01426A;
+	font-family: "Trebuchet";
+}
+
+@font-face{
+font-family: "Philosopher";
+/*;*/
+	src: url("fonts/philosopher/philosopher.eot"); /* IE9 Compat Modes */
+	src: url("fonts/philosopher/philosopher.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("fonts/philosopher/philosopher.otf") format("opentype"), /* Open Type Font */
+		url("fonts/philosopher/philosopher.svg") format("svg"), /* Legacy iOS */
+		url("fonts/philosopher/philosopher.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("fonts/philosopher/philosopher.woff") format("woff"), /* Modern Browsers */
+		url("fonts/philosopher/philosopher.woff2") format("woff2"); /* Modern Browsers */
+	/*src: url("fonts/trebuchet/9412.ttf");*/
+		font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Trebuchet";
+	src: url("fonts/trebuchet/9412.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+button{
+	font-family: "Trebuchet";
+}
+small{
+	font-family: "Trebuchet";
+}
+
+input {
+	font-family: "Trebuchet";
+}
+/*#InputEmail1 {
+	width: 35%;
+
+}
+
+#InputPassword1 {
+	width: 35%;
+}*/
+
+form{
+	background-color: #e5eaed;
+	margin-top:20em;
+	border-radius: 4px;
+	padding: 7px;
+}
+
+ul.hr{
+	list-style-type: none;
+	text-align:center;
+	margin-top:20px;
+	
+}
+ul.hr li{
+	display:inline;
+	padding-right:17px;
+}
+p {
+	font-family: "Trebuchet";
+	font-size:17px;
+	color: #01426A;
+}
+
+ul.p {
+	font-family: "Trebuchet";
+	font-size:17px;
+	color: #01426A;
+}
+
+/*#RegistrContent{
+	text-align:center;
+}*/
