@@ -1,0 +1,111 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #D9D9D666;
+  font-family: "Trebuchet";
+  color: #01426A;
+  
+}
+.modal-body{
+  text-align: justify;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto; 
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="tel"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+h1, h2, h3{
+  font-family: "Philosopher";
+  color: #01426A;
+}
+.h1{
+  font-size: normal;
+  font-family: "Philosopher";
+  font-weight: 500;
+  line-height: 1.1;
+  
+}
+
+@font-face{
+font-family: "Philosopher";
+/*;*/
+  src: url("fonts/philosopher/philosopher.eot"); /* IE9 Compat Modes */
+  src: url("fonts/philosopher/philosopher.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/philosopher/philosopher.otf") format("opentype"), /* Open Type Font */
+    url("fonts/philosopher/philosopher.svg") format("svg"), /* Legacy iOS */
+    url("fonts/philosopher/philosopher.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("fonts/philosopher/philosopher.woff") format("woff"), /* Modern Browsers */
+    url("fonts/philosopher/philosopher.woff2") format("woff2"); /* Modern Browsers */
+  /*src: url("fonts/trebuchet/9412.ttf");*/
+    font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Trebuchet";
+  src: url("fonts/trebuchet/9412.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+ul.footer li{
+  display:inline;
+  padding-right:17px;
+}
+
+a{
+  color: #01426A;
+}
+
+/*a:hover{
+  color: #01426A;
+}*/
+
